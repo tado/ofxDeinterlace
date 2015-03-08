@@ -1,11 +1,11 @@
 # ofxDeinterlace
-ofxDeinterlace is simple line averaging deinterlacer for openFrameworks. This addon use GLSL for deinterlace process. 
+ofxDeinterlace is simple line averaging deinterlacer for openFrameworks. 
 
 ![](http://upload.wikimedia.org/wikipedia/commons/f/f0/Indian_Head_interlace.gif)
 
 wikipedia : [Interlaced video](http://en.wikipedia.org/wiki/Interlaced_video)
 
-GLSL code refer the discussion topics below.
+This addon use GLSL for deinterlace process. GLSL code refer the discussion topics below.
 
 - [Re: 1080i interlacing (Apple Mailing Lists)](http://lists.apple.com/archives/quartzcomposer-dev/2008/Aug/msg00157.html)
 
