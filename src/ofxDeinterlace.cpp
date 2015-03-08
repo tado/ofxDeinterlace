@@ -10,8 +10,8 @@
 ofxDeinterlace::ofxDeinterlace(ofTexture _texture){
     tex0 = _texture;
     
-    width = ofGetWidth();
-    height = ofGetHeight();
+    width = tex0.getWidth();
+    height = tex0.getHeight();
     
     frag = STRINGIFY
     (
