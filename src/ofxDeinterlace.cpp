@@ -74,10 +74,10 @@ void ofxDeinterlace::draw(){
     glVertex2f(width, 0);
     
     glMultiTexCoord2d(GL_TEXTURE0_ARB, tex0.getWidth(), tex0.getHeight());
-    glVertex2f( width, height);
+    glVertex2f(width, height);
     
     glMultiTexCoord2d(GL_TEXTURE0_ARB, 0, tex0.getHeight());
-    glVertex2f(0, height );
+    glVertex2f(0, height);
     
     glEnd();
     tex0.unbind();
