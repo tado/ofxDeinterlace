@@ -2,7 +2,7 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    video.loadMovie("source.mov");
+    video.loadMovie("1080i.mov");
     video.play();
     deinterlace = new ofxDeinterlace(video.getTextureReference());
     enableDeinterlace = false;
